@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "iOS - Launch localhost with sourcemaps",
+            "type": "ios",
+            "request": "launch",
+            "port": 9222,
+            "url": "http://dev.domain.com/",
+            "webRoot": "${workspaceRoot}",
+            "deviceName": "*",
+            "sourceMaps": true
+        },
+        {
+            "name": "iOS - Launch localhost with sourcemaps via Tunnel",
+            "type": "ios",
+            "request": "launch",
+            "port": 9222,
+            "webRoot": "${workspaceRoot}",
+            "deviceName": "*",
+            "sourceMaps": true,
+            "tunnelPort": 8080
+        }
+    ]
+}
